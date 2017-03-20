@@ -12,6 +12,7 @@ int timecalculator(int z) {
     if (z >= 1440) {
         return timecalculator(z%1440);
     }
+    
     else if (z >= 60) {
         int k = z / 60;
         t1.hour += k;
