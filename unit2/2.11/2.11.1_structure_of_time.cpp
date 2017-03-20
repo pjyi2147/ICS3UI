@@ -10,7 +10,7 @@ struct time {
 
 int timecalculator(int z) {
     if (z >= 1440) {
-        return timecalculator(z - 1440);
+        return timecalculator(z%1440);
     }
     else if (z >= 60) {
         int k = z / 60;
@@ -37,5 +37,3 @@ int main() {
     cout << t1.hour << ":" << t1.minute << endl;
     return 0;
 }
-
-
