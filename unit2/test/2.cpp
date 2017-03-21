@@ -1,4 +1,4 @@
-// pythagorian triple
+// pythagorian triple by Jeongseop Yi
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,4 +1,4 @@
-// De Morgan's Law
+// De Morgan's Law by Jeongseop Yi
 #include <iostream>
 #include <string>
 using namespace std;
