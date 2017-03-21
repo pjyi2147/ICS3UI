@@ -20,7 +20,7 @@ int main() {
             }
         }
     }
-    cout << "There are " << counter + 1 << " sets of integer Pythagorean triangle s1,s2,h <= 500." << endl;
+    cout << "There are " << counter << " sets of integer Pythagorean triangle s1,s2,h <= 500." << endl;
     cout << "The lists are:" << endl;
     for (int z = 0; z < counter; z++) {
         cout << "h: " << lst[z].h << " s1: " << lst[z].s1 << " s2: " << lst[z].s2 << endl;
