@@ -1,4 +1,8 @@
-// pythagorian triple by Jeongseop Yi
+/* De Morgan's Law by Jeongseop Yi 
+// March 21, 2017
+// ICS3UI
+// Master Damian
+*/
 #include <iostream>
 #include <string>
 using namespace std;
