@@ -1,4 +1,4 @@
-/* De Morgan's Law by Jeongseop Yi 
+/* De Morgan's Law by Jeongseop Yi
 // March 21, 2017
 // ICS3UI
 // Master Damian
@@ -30,5 +30,4 @@ int main() {
         cout << "h: " << lst[z].h << " s1: " << lst[z].s1 << " s2: " << lst[z].s2 << endl;
     }
     return 0;
-
 }
