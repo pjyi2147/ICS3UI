@@ -13,7 +13,7 @@ int main() {
     ptr = vector1;
     int mini = INT32_MAX;
     for(int i = 0; i < n; i++) {
-        if (*ptr <= mini) {
+        if (*ptr < mini) {
             mini = *ptr ;
         }
         ptr = ptr+1;
