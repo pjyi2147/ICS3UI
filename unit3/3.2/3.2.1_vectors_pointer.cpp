@@ -14,7 +14,7 @@ int main() {
     int mini = INT32_MAX;
     for(int i = 0; i < n; i++) {
         if (*ptr < mini) {
-            mini = *ptr ;
+            mini = *ptr;
         }
         ptr = ptr+1;
     }
