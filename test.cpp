@@ -1,13 +1,16 @@
 #include <iostream>
-
 using namespace std;
 
-int main(void) {
-    int *ptr, arr[3], *ptr2, i;
-    arr[0] = 3;
-    ptr = arr;
-    ptr2 = ptr + 1;
-    i = ptr2 - ptr;
-    cout << ptr << " " << ptr2 << " " << i << endl;
-    return 0;
+int pairSum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int n;
+    int sum = 0;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        sum += pairSum(i, i+1);
+    }
+    cout << sum;
 }
