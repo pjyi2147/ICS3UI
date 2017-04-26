@@ -85,7 +85,6 @@ int main() {
 			cin >> id;
 			getline(cin, name);
 			name = name.substr(1);
-
 			member.setId(id);
 			member.setName(name);
 
