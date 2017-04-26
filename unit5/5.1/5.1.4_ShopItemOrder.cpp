@@ -65,17 +65,17 @@ double ShopItemOrder::getTotalPrice()
 int main() {
 	ShopItemOrder apple("apple", 3.23, 10);
 	cout << "Name: " << apple.getName() << endl
-		<< " Price: " << apple.getPrice() << endl
-		<< " Amount: " << apple.getAmount() << endl
-		<< " Total price: " << apple.getTotalPrice() << endl;
+		<< "Price: " << apple.getPrice() << endl
+		<< "Amount: " << apple.getAmount() << endl
+		<< "Total price: " << apple.getTotalPrice() << endl;
 
 	apple.changeAmount(30);
 	apple.changePrice(5.25);
 	apple.changeName("Orange");
 
 	cout << "Name: " << apple.getName() << endl
-		<< " Price: " << apple.getPrice() << endl
-		<< " Amount: " << apple.getAmount() << endl
-		<< " Total price: " << apple.getTotalPrice() << endl;
+		<< "Price: " << apple.getPrice() << endl
+		<< "Amount: " << apple.getAmount() << endl
+		<< "Total price: " << apple.getTotalPrice() << endl;
 	return 0;
 }
