@@ -3,3 +3,6 @@
 /cmake-build-debug
 CMakeLists.txt
 /.idea
+test.cpp
+test.o
+test.exe
