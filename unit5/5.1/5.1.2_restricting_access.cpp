@@ -8,7 +8,7 @@ class Square {
 public:
 	Square(double side);
 	void set_side(double side) {
-		if (side > 0) {
+		if (side >= 0) {
 			this->side = side;
 			this->area = side*side;
 		}
