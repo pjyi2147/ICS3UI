@@ -8,7 +8,18 @@
 int main()
 {
 	int ax, ay, aval, bx, by, bval;
-	cin >> ax >> ay >> aval >> bx >> by >> bval;
+	cout << "Input the height of matrix A: ";
+	cin >> ax;
+	cout << "Input the width of matrix A: ";
+	cin >> ay;
+	cout << "Input the value of matrix A: ";
+	cin >> aval;
+	cout << "Input the height of matrix B: ";
+	cin >> bx;
+	cout << "Input the width of matrix B: ";
+	cin >> by;
+	cout << "Input the value of matrix B: ";
+	cin >> bval;
 
 	matrix A(ax, ay, aval);
 	matrix B(bx, by, bval);

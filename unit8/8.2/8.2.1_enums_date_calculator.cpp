@@ -10,7 +10,12 @@ using namespace std;
 int main()
 {
 	int date, month, year;
-	cin >> date >>  month >> year;
+	cout << "Input date: ";
+	cin >> date;
+	cout << "Input month: ";
+	cin >> month;
+	cout << "Input year: ";
+	cin >> year;
 	try
 	{
 		Calendar cal(date, month, year);
