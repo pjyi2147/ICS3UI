@@ -185,7 +185,4 @@ string matrix::printMatrix()
 	return k;
 }
 
-incompatible::incompatible(string k) : runtime_error(k)
-{
-
-}
+incompatible::incompatible(string k) : runtime_error(k) {}
